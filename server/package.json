@@ -1,0 +1,30 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Pagina de peliculas desarrollada por la pagina de Zukytech",
+  "main": "index.js",
+  "scripts": {
+    "build":"babel src --out-dir build",
+    "dev":"nodemon src/index.js --exec babel-node",
+    "start":"node build src/index.js"
+  },
+  "keywords": [],
+  "author": "Willian, perfil de hackersRanks EasyMadara, pefil de Github Will2020-cpu",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "helmet": "^4.4.1",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
+    "@babel/node": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "nodemon": "^2.0.7"
+  }
+}
