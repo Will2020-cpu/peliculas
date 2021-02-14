@@ -2,6 +2,8 @@ import express from 'express'
 import morgan from 'morgan'
 import Informacion from '../package.json';
 import helmet from "helmet"
+import "core-js/stable";
+import "regenerator-runtime/runtime";
 
 //Importando rutas
 import peliculasRoutes from './routes/peliculas.routes'
